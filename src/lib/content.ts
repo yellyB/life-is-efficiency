@@ -1,9 +1,32 @@
-export const categories = ['til', 'algorithms'] as const;
+export const categories = [
+	'til',
+	'algorithms',
+	'javascript',
+	'react',
+	'web',
+	'toy-project',
+	'comics',
+	'programming',
+	'network',
+	'dev-env',
+	'mssql',
+	'etc'
+] as const;
 export type Category = (typeof categories)[number];
 
 export const categoryLabels: Record<Category, string> = {
 	til: 'TIL',
-	algorithms: '알고리즘'
+	algorithms: '알고리즘',
+	javascript: 'JavaScript',
+	react: 'React',
+	web: 'WEB',
+	'toy-project': '토이프로젝트',
+	comics: '짧은만화',
+	programming: '프로그래밍',
+	network: '네트워크',
+	'dev-env': '개발환경',
+	mssql: 'MSSQL',
+	etc: '기타'
 };
 
 export type Post = {
