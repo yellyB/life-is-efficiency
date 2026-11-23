@@ -1,5 +1,5 @@
 import { execFileSync } from 'node:child_process';
-import { readdirSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import type { Plugin } from 'vite';
 
@@ -26,6 +26,11 @@ function listMarkdownFiles() {
 	});
 }
 
+function hasFrontmatterDate(file: string) {
+	const frontmatter = readFileSync(file, 'utf8').match(/^---\r?\n([\s\S]*?)\r?\n---/);
+	return !!frontmatter && /^date:\s*\S/m.test(frontmatter[1]);
+}
+
 function firstCommitDate(file: string) {
 	const dates = git(['log', '--follow', '--format=%as', '--', file]).split('\n').filter(Boolean);
 	return dates.at(-1);
@@ -45,7 +50,7 @@ export function contentDates(): Plugin {
 			}
 
 			const dates: Record<string, string> = {};
-			for (const file of listMarkdownFiles()) {
+			for (const file of listMarkdownFiles().filter((file) => !hasFrontmatterDate(file))) {
 				const date = firstCommitDate(file);
 				if (date) dates[`/${file}`] = date;
 			}
