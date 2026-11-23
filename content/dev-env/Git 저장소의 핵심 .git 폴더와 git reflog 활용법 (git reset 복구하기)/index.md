@@ -111,12 +111,12 @@ e4f5g6h HEAD@{2}: checkout: moving from feature to main
 d7h8i9j HEAD@{3}: commit: Fix bug in login
 ```
 
-> 💡 HEAD@&amp;#123;n&amp;#125;
-> n은 HEAD가 참조한 커밋의 순서를 나타낸다. HEAD@&amp;#123;0&amp;#125;은 가장 최근 커밋을, HEAD@&amp;#123;1&amp;#125;은 그 이전 커밋을 가리킴
+> 💡 HEAD@{n}
+> n은 HEAD가 참조한 커밋의 순서를 나타낸다. HEAD@{0}은 가장 최근 커밋을, HEAD@{1}은 그 이전 커밋을 가리킴
 
 `git reset`을 잘못해서 로컬에 있는 커밋을 날렸다면 당황하지 않고 `git reflog`를 통해 커밋 히스토리를 찾아 복구할 수 있다.
 
-만약 HEAD@&amp;#123;2&amp;#125; 로 복구하고 싶다면 아래와 같이 명령어를 사용하면 된다.
+만약 HEAD@{2} 로 복구하고 싶다면 아래와 같이 명령어를 사용하면 된다.
 
 ```shell
 git reset --hard HEAD@{2}

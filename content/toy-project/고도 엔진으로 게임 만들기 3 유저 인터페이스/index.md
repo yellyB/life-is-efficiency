@@ -151,7 +151,7 @@ func show_game_over():
 
 ## \[Main에 HUD 추가\]
 
-Main &amp;lt;-> HUD 사이의 이벤트를 설정할 것이다.
+Main &lt;-> HUD 사이의 이벤트를 설정할 것이다.
 
 저번 파트에서 플레이어를 Main의 자식 인스턴스로 추가했던 것처럼, HUD를 Main 에 추가해 준다.
 

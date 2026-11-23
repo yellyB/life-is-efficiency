@@ -5,10 +5,10 @@ date: '2025-06-05'
 
 ### 목차
 
--   [Vim에 익숙해지기](&amp;lt;#Vim에 익숙해지기>)
--   [Neovim 소개](&amp;lt;#Neovim 소개>)
--   [Neovim 설치](&amp;lt;#Neovim 설치>)
--   [Vim 플러그인 관리하기](&amp;lt;#Vim 플러그인 관리하기>)
+-   [Vim에 익숙해지기](&lt;#Vim에 익숙해지기>)
+-   [Neovim 소개](&lt;#Neovim 소개>)
+-   [Neovim 설치](&lt;#Neovim 설치>)
+-   [Vim 플러그인 관리하기](&lt;#Vim 플러그인 관리하기>)
 
 * * *
 

@@ -5,7 +5,7 @@ date: '2021-04-02'
 
 유저 아이디, 티어, 플레이 시간이 다음과 같이 저장되어 있는 Temp\_user 테이블에서 case문을 이용해 데이터를 가져올 것이다.
 
-&amp;lt;Temp\_user 테이블>
+&lt;Temp\_user 테이블>
 
 userId   tear     play\_time
 \-------- -------- -----------
@@ -34,7 +34,7 @@ SELECT
 FROM Temp_user
 ```
 
-&amp;lt;결과>
+&lt;결과>
 
 아이디    플레이 시간  티어
 \--------   -----------   ------
@@ -61,7 +61,7 @@ FROM Temp_user u
 LEFT OUTER JOIN Temp_tear t ON u.tear = t.tear_val
 ```
 
-&amp;lt;Temp\_tear 테이블>
+&lt;Temp\_tear 테이블>
 
 tear\_val  tear\_text
 \--------  ---------

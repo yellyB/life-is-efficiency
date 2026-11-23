@@ -13,7 +13,7 @@ two pointer알고리즘과 비슷한 알고리즘이다.
 
 **문자열 s에서 반복되는 알파벳이 없는 가장 긴 substring의 길이를 구하라.**
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var lengthOfLongestSubstring = function (s) {
@@ -31,7 +31,7 @@ var lengthOfLongestSubstring = function (s) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -65,7 +65,7 @@ class Solution:
 
 **문자열 s1과 s2가 주어질 때 s2가 s1의 permutation을 포함하면 true, 아니면 false를 반환하라.**
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var checkInclusion = function (s1, s2) {
@@ -90,7 +90,7 @@ var checkInclusion = function (s1, s2) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:

@@ -16,6 +16,6 @@
 	</div>
 
 	<div>
-		<svelte:component this={data.content} />
+		{@html data.html}
 	</div>
 </article>

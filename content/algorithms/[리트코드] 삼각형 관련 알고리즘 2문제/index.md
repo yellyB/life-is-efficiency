@@ -13,11 +13,11 @@ date: '2022-03-25'
 
 주어진 nums로 가장 긴 삼각형을 만들 수 있는 조합을 찾아서 그 둘레를 반환하는 문제
 
-삼각형은 가장 긴 변=a, 두 번째 긴 변=b, 제일 짧은 변=c 라고 했을 때 a &amp;lt;b+c여야 한다.
+삼각형은 가장 긴 변=a, 두 번째 긴 변=b, 제일 짧은 변=c 라고 했을 때 a &lt;b+c여야 한다.
 
 그러니 nums를 정렬한 후 a, b, c 변을 비교해서 조건에 맞으면 세 변의 합을 반환해준다.
 
-&amp;lt;python>
+&lt;python>
 
 ```python
 class Solution:
@@ -47,7 +47,7 @@ b는 a의 바로 다음 수부터 체크하고 c는 현재 가능한 변들 중 
 
 하지만 a, b, c가 삼각형이 이루어지지 않았다면 가장 짧은 변이었던 c를 더 긴 변으로 변경한 후 삼각형의 조건에 맞는지 확인을 계속해준다.
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var triangleNumber = function(nums) {

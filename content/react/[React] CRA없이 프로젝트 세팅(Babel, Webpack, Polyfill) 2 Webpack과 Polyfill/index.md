@@ -41,7 +41,7 @@ npm install --save-dev babel-loader
 
 Webpack이 실행될 때 설정 파일을 참조할 수 있도록 설정 파일을 작성해준다.
 
-&amp;lt;webpack.config.js>
+&lt;webpack.config.js>
 
 ```javascript
 const path = require("path");

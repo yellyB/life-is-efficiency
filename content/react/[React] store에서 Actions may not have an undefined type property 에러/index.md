@@ -9,14 +9,14 @@ date: '2022-04-20'
 
 아무리 살펴봐도 타이핑은 제대로 되어있었고 전혀 에러 날 부분이 없는데 왜 자꾸 misspelled 했다는 에러가 뜨는 건지 이해가 안 되었다.
 
-&amp;lt;actionTypes.tsx>
+&lt;actionTypes.tsx>
 
 ```javascript
 (...)
 export const DELETE_EMAIL = "DELETE_EMAIL";
 ```
 
-&amp;lt;actions.tsx>
+&lt;actions.tsx>
 
 ```javascript
 (...)
@@ -26,7 +26,7 @@ export const deleteEmail = (data) => ({
 });
 ```
 
-&amp;lt;reducer.tsx>
+&lt;reducer.tsx>
 
 ```javascript
 const emailReducer = (state = email, action) => {

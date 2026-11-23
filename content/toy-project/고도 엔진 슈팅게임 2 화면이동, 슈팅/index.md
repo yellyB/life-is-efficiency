@@ -70,7 +70,7 @@ func _integrate_forces(physics_state):
 	physics_state.transform = xform
 ```
 
-`wrapf()` 함수는 value 를 min &amp;lt;-> max 사이에서 'wrap'한다.
+`wrapf()` 함수는 value 를 min &lt;-> max 사이에서 'wrap'한다.
 
 만약 최솟값인 `0 미만으로` 값이 내려가면 `screensize.x` 값이 되고, 반대로 최댓값인 `screensize.x` 이 넘어가면 `0`이 된다.
 
@@ -150,8 +150,7 @@ var can_shoot = true
 
 저장 후 `[인스펙터] 창에` 만들어진 **Bullet Scene** 에 `bullet.tscn` 파일을 드래그해 넣는다.
 
-**
-(3) 스크립트 작성**
+**(3) 스크립트 작성**
 
 총알 발사 쿨타임 구현을 위해 `_ready()`에 다음 코드를 추가한다.
 

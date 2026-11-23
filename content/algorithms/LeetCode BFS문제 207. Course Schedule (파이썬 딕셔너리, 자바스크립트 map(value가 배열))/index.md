@@ -37,7 +37,7 @@ BFS함수 바깥에 checked 배열을 만들고 해당 key값의 모든 value를
 
 또, 딕셔너리의 모든 value들이 BFS를 통과했다면 checked에 추가해주고 true를 리턴한다.
 
-&amp;lt;python>
+&lt;python>
 
 ```python
 class Solution:
@@ -70,7 +70,7 @@ class Solution:
         return True
 ```
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var canFinish = function(numCourses, prerequisites) {

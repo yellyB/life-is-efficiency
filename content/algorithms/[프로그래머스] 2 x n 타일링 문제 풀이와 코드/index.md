@@ -31,7 +31,7 @@ n의 경우의 수는 곧 n-1이었던 모든 경우에 세로로 타일을 배�
 
 depth가 깊어지면 매번 나누어져야 해서 속도 이슈가 있는 것으로 추측된다.
 
-&amp;lt;top-down>
+&lt;top-down>
 
 ```python
 def solution(n):
@@ -57,7 +57,7 @@ def solution(n):
 
 top-down방식과 로직은 같은데, 역시 bottom-up 풀이는 코드 제출 시 모두 통과할 수 있었다.
 
-&amp;lt;bottom-up>
+&lt;bottom-up>
 
 ```python
 def solution(n):

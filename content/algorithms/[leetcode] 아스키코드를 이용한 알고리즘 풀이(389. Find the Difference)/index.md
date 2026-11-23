@@ -17,7 +17,7 @@ s와 t의 모든 문자가 똑같은데(예시에는 나와있지 않지만 s와
 
 그러니 s와 t의 각각 변수를 선언해서 아스키코드로 변환한 알파벳들을 모두 더해준 뒤 t에서 s를 빼주면 t에만 추가된 그 알파벳의 아스키코드를 알 수 있다.
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -30,7 +30,7 @@ class Solution:
         return chr(ascT - ascS)  # t의 아스키코드 합계에서 s합계를 빼준걸 다시 문자로 변환
 ```
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 /**

@@ -17,7 +17,7 @@ date: '2022-10-12'
 
 워닝 내용에도 나와있듯이 바벨 설정에 loose를 true로 설정해주면 된다.
 
-> \["@babel/plugin-proposal-private-methods", &amp;#123; "loose": true &amp;#125;\]
+> \["@babel/plugin-proposal-private-methods", { "loose": true }\]
 
 이렇게 하면
 

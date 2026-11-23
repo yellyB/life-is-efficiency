@@ -25,7 +25,7 @@ lexical scope: var / block scope: let, const
 
 아래의 예시처럼 var를 사용해 address='seoul'로 변수를 할당하고 내부 if문에서 address를 재선언하면 바깥에서 선언한 address의 값까지 바뀌게 된다.
 
-&amp;lt;var>
+&lt;var>
 
 ```javascript
     const lexicalScope = () => {
@@ -42,7 +42,7 @@ lexical scope: var / block scope: let, const
 
 바깥에서 선언한 변수와 내부에서 선언한 변수명이 같더라도 내부에서 선언한 address는 중괄호를 벗어나면 값이 유효하지 않다.
 
-&amp;lt;let>
+&lt;let>
 
 ```javascript
     const blockScope = () => {

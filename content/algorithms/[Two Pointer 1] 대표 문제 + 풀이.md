@@ -9,7 +9,7 @@ date: '2022-02-13'
 
 (ex. nums = \[-4,-1,0,3,10\] 일 때 정답은 \[0,1,9,16,100\] 이다.)
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var sortedSquares = function(nums) {
@@ -29,7 +29,7 @@ var sortedSquares = function(nums) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -66,7 +66,7 @@ k만큼 nums를 rotate 시킨다.
 
 ex. nums = \[1,2,3,4,5,6,7\], k = 3 일 때 정답은 \[5,6,7,1,2,3,4\] 이다.
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var rotate = function(nums, k) {
@@ -90,7 +90,7 @@ var rotate = function(nums, k) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -117,7 +117,7 @@ k가 nums의 길이보다 클 경우에 k를 처리해주는 부분은 동일하
 
 nums배열에서 모든 0을 배열의 뒷부분에 모아주자
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var moveZeroes = function(nums) {
@@ -134,7 +134,7 @@ var moveZeroes = function(nums) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -159,9 +159,9 @@ class Solution:
 
 ex. numbers = \[2,7,11,15\], target = 9 일 때
 
-    9를 만들 수 있는 숫자 2와 7의 인덱스인 \[1, 2\]가 정답
+9를 만들 수 있는 숫자 2와 7의 인덱스인 \[1, 2\]가 정답
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var twoSum = function(numbers, target) {
@@ -177,7 +177,7 @@ var twoSum = function(numbers, target) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:

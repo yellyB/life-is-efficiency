@@ -137,7 +137,7 @@ for 문에서는 size 3인 바위를 생성하도록 했다.
 
 **bullet.gd**의 `_on_body_entered()` 함수는 총알의 body entered 시그널로, 충돌된게 rocks 인지 판단하고 있으므로 이제 이 부분을 구현해줘야 한다.
 
-&amp;lt;참고: bullet.gd의 \_on\_body\_entered()>
+&lt;참고: bullet.gd의 \_on\_body\_entered()>
 
 ```bash
 func _on_body_entered(body):

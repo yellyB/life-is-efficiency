@@ -11,7 +11,7 @@ date: '2021-12-10'
 
 화살표 함수에는 =>만 있을 뿐 function키워드나 return키워드, 인수의 괄호, 중괄호가 모두 생략되었다.
 
-&amp;lt;기존의 방식>
+&lt;기존의 방식>
 
 ```javascript
     function getFirstLetter(str) {

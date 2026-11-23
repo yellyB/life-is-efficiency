@@ -27,13 +27,13 @@ Babel을 사용하여 ES6 사양의 코드를 ES5로 트랜스파일링 해도 �
 
 프로젝트 폴더를 만든 후 터미널에서 명령어를 사용해 Babel을 설치하고 package.json파일을 만들어준다.
 
-&amp;lt;package.json생성>
+&lt;package.json생성>
 
 ```bash
 npm init -y
 ```
 
-&amp;lt;babel-core, babel-cli설치>
+&lt;babel-core, babel-cli설치>
 
 ```bash
 npm install --save-dev @babel/core @babel/cli

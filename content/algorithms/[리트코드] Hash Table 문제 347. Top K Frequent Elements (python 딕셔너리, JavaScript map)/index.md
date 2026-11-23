@@ -17,7 +17,7 @@ date: '2022-03-30'
 
 각 언어의 문법을 잘 활용할 수 있는 문제이다.
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var topKFrequent = function(nums, k) {
@@ -32,7 +32,7 @@ var topKFrequent = function(nums, k) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:

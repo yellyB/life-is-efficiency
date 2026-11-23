@@ -47,11 +47,11 @@ date: '2022-02-07'
     .catch(console.error);
 ```
 
-&amp;lt;outlook>
+&lt;outlook>
 
 ![](./1.png)
 
-&amp;lt;gmail>
+&lt;gmail>
 
 ![](./2.png)
 

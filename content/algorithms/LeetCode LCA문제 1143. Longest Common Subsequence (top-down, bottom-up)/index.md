@@ -13,7 +13,7 @@ date: '2022-06-01'
 
 이 문제는 top-down 방식과 bottom-up 방식 두 가지로 풀어보았다.
 
-&amp;lt;top-down>
+&lt;top-down>
 
 ```python
 class Solution:
@@ -34,7 +34,7 @@ class Solution:
         return top_down(0, 0)
 ```
 
-&amp;lt;bottom-up>
+&lt;bottom-up>
 
 ```python
 class Solution:

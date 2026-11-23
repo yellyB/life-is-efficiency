@@ -11,7 +11,7 @@ date: '2022-04-04'
 
 각 row를 거꾸로 정렬한 뒤 matrix를 왼쪽 위에서 오른쪽 아래 대각선으로 잘랐다고 생각하고 그 대각선을 기준으로 각 칸을 swap 해준다.
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -22,7 +22,7 @@ class Solution:
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 ```
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var rotate = function(matrix) {

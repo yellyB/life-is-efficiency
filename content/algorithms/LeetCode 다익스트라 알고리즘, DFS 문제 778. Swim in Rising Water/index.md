@@ -37,7 +37,7 @@ stack은 검사할 값이 저장되어 있는데 (i, j, k)로 구성되어 있�
 
 이렇게 되면 도착 지점에는 결국 우리가 찾는 답이 저장될 것이다.
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -79,7 +79,7 @@ DFS에서는 grid\[row\]\[col\]의 값이 현재의 time보다 크다면 함수�
 
 이렇게 하면 결국 time을 최소로 증가시키면서 도착 지점에 도달할 수 있게 된다.
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 /**

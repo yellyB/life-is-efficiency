@@ -27,9 +27,9 @@ plant 하는 날짜는 각 씨앗들끼리 겹칠 수 없기 때문에 plant 하
 
 2\. 정렬한 배열을 돌면서 꽃이 핀 최종 날짜인 bloomDay에 해당 씨앗이 만개한 최종 날을 구하여 리턴한다.
 
-    -> 모든 씨앗의 plant는 겹치치 않아야 하니 plantDay에 각 씨앗이 plant 하는 날을 누적시킨다.
+-> 모든 씨앗의 plant는 겹치치 않아야 하니 plantDay에 각 씨앗이 plant 하는 날을 누적시킨다.
 
-    -> bloomDay에는 현재 씨앗까지 누적된 plantDay와 현재 씨앗의 growTime을 더해서 이 값을 이전의 bloomDay와 비교하여 max값을 경신해준다.
+-> bloomDay에는 현재 씨앗까지 누적된 plantDay와 현재 씨앗의 growTime을 더해서 이 값을 이전의 bloomDay와 비교하여 max값을 경신해준다.
 
 ```python
 class Solution:

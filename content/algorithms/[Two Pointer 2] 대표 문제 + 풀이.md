@@ -7,7 +7,7 @@ date: '2022-02-15'
 
 **주어진 문자열 배열을 뒤집기**
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var reverseString = function (s) {
@@ -23,7 +23,7 @@ var reverseString = function (s) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -47,7 +47,7 @@ reverse() 메서드를 쓰면 간단하게 해결할 수 있지만 알고리즘�
 
 ex. "this is an apple" -> "this is an apple"
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var reverseWords = function (s) {
@@ -67,7 +67,7 @@ var reverseWords = function (s) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -112,7 +112,7 @@ class Solution:
 
 **Linked List 문제. 연결 리스트 노드의 중간을 반환**
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var middleNode = function (head) {
@@ -126,7 +126,7 @@ var middleNode = function (head) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -151,7 +151,7 @@ fast는 slow노드보다 두배 빨리 탐색해서 fast가 끝에 다다랐을 
 
 **Linked List 문제. 연결 리스트 노드에서 뒤에서 n번째 노드를 제거하기**
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 var removeNthFromEnd = function (head, n) {
@@ -171,7 +171,7 @@ var removeNthFromEnd = function (head, n) {
 };
 ```
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:

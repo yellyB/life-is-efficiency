@@ -31,15 +31,15 @@ insert into #temp_table values('melon',1)
 
 간단하게 if문으로 표현하자면 이렇다.
 
-if (@pQuantity == 0) &amp;#123;
+if (@pQuantity == 0) {
 
-    select \* from #temp\_table
+select \* from #temp\_table
 
-&amp;#125; else if(@pQuantity \> 0) &amp;#123;
+} else if(@pQuantity \> 0) {
 
-    select \* from #temp\_table where @param = quantity
+select \* from #temp\_table where @param = quantity
 
-&amp;#125;
+}
 
 이걸 sql문으로는 아래처럼 짜면 된다.
 

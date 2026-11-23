@@ -39,7 +39,7 @@ visited를 이용해서 방문한 곳은 겹쳐서 방문하지 않도록 해준
 
 끝 위치에 다다랐다면 현재 step을 리턴해주면 된다.
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:

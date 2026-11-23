@@ -25,7 +25,7 @@ date: '2022-02-01'
 
 기존의 차트와 다른 레이어로 관리할 것이기 때문에 차트를 그리는 함수와 배경을 그리는 함수를 분리했다.
 
-&amp;lt;background함수 만들어서 useEffect에서 실행>
+&lt;background함수 만들어서 useEffect에서 실행>
 
 ```javascript
   const background = () => {

@@ -15,7 +15,7 @@ date: '2022-04-04'
 
 딕셔너리에 wordList의 모든 단어들을 한 글자씩 \*로 바꾼걸 키로 하여 밸류를 리스트로 추가해준다.
 
-ex) &amp;#123;\*ot:'hot', 'dot', lot'&amp;#125;
+ex) {\*ot:'hot', 'dot', lot'}
 
 beginWord를 큐에 담아서 앞에서부터 하나씩 꺼내면서 검사할 건데 큐에 넣을 때 level이란 걸 같이 담을 것이다.
 level은 현재 몇 번째 체인이 걸렸는지 저장하는 값
@@ -25,13 +25,13 @@ while문 안에서 큐에서 꺼낸 값을
 
 그러면 큐에서 꺼낸 단어를 \*로 바꾼 단어와 동일한 단어들을 볼 수 있다.
 
-예를 들어 begin=hit이고 1번 인덱스를 \*로 바꿨을 때 h\*t이고, 이것이 키인 dict의 데이터는 &amp;#123;h\*t:'hot'&amp;#125; 일 것이다.
+예를 들어 begin=hit이고 1번 인덱스를 \*로 바꿨을 때 h\*t이고, 이것이 키인 dict의 데이터는 {h\*t:'hot'} 일 것이다.
 
 그럼 리스트로 저장했던 밸류를 반복문으로 찾으려는 endWord랑 같으면 level+1 해서 리턴하면 된다.
 
 그런데 hit->hot->dog->hot의 경우처럼 이미 검사한 hot을 또 검사할 위험이 있으니 visited를 만들어서 검사한 단어는 더 검사 안 하도록 해준다.
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -59,7 +59,7 @@ class Solution:
         return 0
 ```
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 /**

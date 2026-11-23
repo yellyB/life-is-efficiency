@@ -27,7 +27,7 @@ date: '2022-05-25'
 
 ⑤ 원래 문자열에다가 ④에서 정렬해준 인덱스 위치에 정렬한 알파벳들을 대체해서 넣어주면 사전 순으로 앞 인덱스부터 넣어줄 수 있다.
 
-&amp;lt;Python>
+&lt;Python>
 
 ```python
 class Solution:
@@ -64,7 +64,7 @@ class Solution:
         return ''.join(lists)
 ```
 
-&amp;lt;JavaScript>
+&lt;JavaScript>
 
 ```javascript
 /**
