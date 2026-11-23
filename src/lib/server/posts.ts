@@ -3,7 +3,7 @@ import gitDates from 'virtual:content-dates';
 import { parseContentPath, type Post } from '$lib/content.js';
 import { renderMarkdown } from './markdown.js';
 
-const sourcesByPath = import.meta.glob<string>(['/content/*.md', '/content/*/*.md'], {
+const sourcesByPath = import.meta.glob<string>('/content/**/*.md', {
 	eager: true,
 	query: '?raw',
 	import: 'default'

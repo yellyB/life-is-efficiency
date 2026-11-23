@@ -51,17 +51,24 @@ function toSlug(name: string) {
 		.replace(/^-+|-+$/g, '');
 }
 
-function splitContentPath(path: string): { category: Category | null; filename: string } | null {
+const POST_FOLDER_ENTRY = 'index.md';
+
+function splitContentPath(path: string): { category: Category | null; name: string } | null {
 	const parts = path.split('/').slice(2);
-	if (parts.length === 1) return { category: null, filename: parts[0] };
-	if (parts.length === 2 && isCategory(parts[0])) return { category: parts[0], filename: parts[1] };
+	if (!parts.at(-1)?.endsWith('.md')) return null;
+
+	const isFolderPost = parts.at(-1) === POST_FOLDER_ENTRY && parts.length > 1;
+	const segments = isFolderPost ? parts.slice(0, -1) : parts;
+	const name = isFolderPost ? segments.at(-1)! : segments.at(-1)!.replace(/\.md$/, '');
+
+	if (segments.length === 1) return { category: null, name };
+	if (segments.length === 2 && isCategory(segments[0])) return { category: segments[0], name };
 	return null;
 }
 
 export function parseContentPath(path: string) {
 	const split = splitContentPath(path);
-	if (!split || !split.filename.endsWith('.md')) return null;
+	if (!split) return null;
 
-	const name = split.filename.replace(/\.md$/, '');
-	return { category: split.category, name, slug: toSlug(name) };
+	return { ...split, slug: toSlug(split.name) };
 }

@@ -1,6 +1,5 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, readdirSync } from 'node:fs';
-import { join } from 'node:path';
 import type { Plugin } from 'vite';
 
 const MODULE_ID = 'virtual:content-dates';
@@ -16,14 +15,9 @@ function git(args: string[]) {
 }
 
 function listMarkdownFiles() {
-	return readdirSync(CONTENT_DIR, { withFileTypes: true }).flatMap((entry) => {
-		if (entry.isFile() && entry.name.endsWith('.md')) return [`${CONTENT_DIR}/${entry.name}`];
-		if (!entry.isDirectory()) return [];
-
-		return readdirSync(join(CONTENT_DIR, entry.name))
-			.filter((name) => name.endsWith('.md'))
-			.map((name) => `${CONTENT_DIR}/${entry.name}/${name}`);
-	});
+	return readdirSync(CONTENT_DIR, { recursive: true, encoding: 'utf8' })
+		.filter((file) => file.endsWith('.md'))
+		.map((file) => `${CONTENT_DIR}/${file}`);
 }
 
 function hasFrontmatterDate(file: string) {
