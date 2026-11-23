@@ -4,6 +4,9 @@ import { contentDates } from './vite-plugin-content-dates.js';
 
 export default defineConfig({
 	plugins: [contentDates(), sveltekit()],
+	optimizeDeps: {
+		include: ['clsx']
+	},
 	server: {
 		fs: {
 			allow: ['content']
