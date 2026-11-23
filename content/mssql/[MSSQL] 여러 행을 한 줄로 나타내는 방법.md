@@ -1,0 +1,47 @@
+---
+title: "[MSSQL] 여러 행을 한 줄로 나타내는 방법"
+date: '2021-08-02'
+---
+
+#temp 테이블
+
+&amp;lt;table style="border-collapse: collapse; width: 34.3023%; height: 187px;" border="1" data-ke-align="alignLeft" data-ke-style="style12">&amp;lt;tbody>&amp;lt;tr>&amp;lt;td style="width: 33.3333%;">&nbsp;&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">name&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">clor&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;tr>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">1&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">apple&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">red&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;tr>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">2&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">banana&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">yellow&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;tr>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">3&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">peach&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">pink&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;tr>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">4&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">melon&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 33.3333%;">&amp;lt;span style="font-family: 'Nanum Gothic';">green&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;/tbody>&amp;lt;/table>
+
+1\. for xml path 사용
+
+for xml path를 사용하면 결과가 xml태그로 나온다.
+
+하지만 우린 xml태그는 필요 없기 때문에 3번째 줄처럼 select ','+name라고 써준다.
+
+그러면 결과는 ,apple,banana,peach,melon 라고 나온다.
+
+여기서 첫 번째 콤마는 필요 없기 때문에 이 콤마를 제거해준다.
+
+substring이나 replace같은 방법도 있지만 STUFF를 사용해서 첫 번째 콤마만 제거해주었다.
+
+```sql
+SELECT
+  STUFF((
+    SELECT ',' + name
+    FROM #temp
+    WHERE 1=1
+    FOR XML PATH('')
+  ),1,1,'') AS fruits
+```
+
+&amp;lt;table style="border-collapse: collapse; width: 35.7168%; height: 71px;" border="1" data-ke-align="alignLeft" data-ke-style="style12">&amp;lt;tbody>&amp;lt;tr style="height: 22px;">&amp;lt;td style="width: 17.869%; height: 22px;">&nbsp;&amp;lt;/td>&amp;lt;td style="width: 101.075%; height: 22px;">&amp;lt;span style="font-family: 'Nanum Gothic';">fruits&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;tr style="height: 29px;">&amp;lt;td style="width: 17.869%; height: 29px;">&amp;lt;span style="font-family: 'Nanum Gothic';">1&amp;lt;/span>&amp;lt;/td>&amp;lt;td style="width: 101.075%; height: 29px;">&amp;lt;span style="font-family: 'Nanum Gothic';">apple,banana,peach,melon&amp;lt;/span>&amp;lt;/td>&amp;lt;/tr>&amp;lt;/tbody>&amp;lt;/table>
+
+2\. coalesce 사용
+
+coalesce는 null값을 체크할 때 쓰는 함수인데 여러 행을 한 줄로 나타낼 때 쓸 수도 있다.
+
+```sql
+DECLARE @fruitsName VARCHAR(20)
+
+SELECT @fruitsName = COALESCE(@fruitsName + ',' ,'')+name FROM #temp WHERE 1=1
+SELECT @fruitsName AS fruits
+```
+
+이번엔 변수 @fruitsName 를 선언해 변수에 값을 담았다.
+
+결과는 위와 같다.
