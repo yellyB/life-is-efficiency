@@ -11,7 +11,7 @@
 </script>
 
 <section>
-	<h1>Today I Learned</h1>
+	<h1>인생은 효율성</h1>
 
 	<nav>
 		<button class:active={filter === 'all'} onclick={() => (filter = 'all')}>전체</button>
