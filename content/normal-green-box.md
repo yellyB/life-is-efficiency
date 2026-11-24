@@ -1,3 +1,7 @@
+---
+date: '2026-11-24'
+---
+
 <img width="1173" height="961" alt="normal-green-box" src="https://github.com/user-attachments/assets/1fcf3678-1ca7-4609-88d0-68281d6b7e7f" />
 
 ### 단축키
