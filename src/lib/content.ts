@@ -9,8 +9,7 @@ export const categories = [
 	'programming',
 	'network',
 	'dev-env',
-	'mssql',
-	'etc'
+	'mssql'
 ] as const;
 export type Category = (typeof categories)[number];
 
@@ -25,8 +24,7 @@ export const categoryLabels: Record<Category, string> = {
 	programming: '프로그래밍',
 	network: '네트워크',
 	'dev-env': '개발환경',
-	mssql: 'MSSQL',
-	etc: '기타'
+	mssql: 'MSSQL'
 };
 
 export type Post = {

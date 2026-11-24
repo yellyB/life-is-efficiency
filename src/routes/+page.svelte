@@ -5,7 +5,7 @@
 	let { data } = $props();
 	const posts: Post[] = data.posts;
 
-	let filter = $state<Category | 'all'>('all');
+	let filter = $state<Category | null | 'all'>('all');
 
 	const filtered = $derived(filter === 'all' ? posts : posts.filter((p) => p.category === filter));
 </script>
@@ -20,6 +20,7 @@
 				{categoryLabels[category]}
 			</button>
 		{/each}
+		<button class:active={filter === null} onclick={() => (filter = null)}>카테고리 없음</button>
 	</nav>
 
 	<ul>
