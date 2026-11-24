@@ -1,9 +1,9 @@
 <script lang="ts">
 	import 'prismjs/themes/prism.css';
-	import { categories, categoryLabels, postHref, type Category, type Post } from '$lib/content.js';
+	import { categories, categoryLabels, postHref, type Category, type PostMeta } from '$lib/content.js';
 
 	let { data } = $props();
-	const posts: Post[] = data.posts;
+	const posts: PostMeta[] = data.posts;
 
 	let filter = $state<Category | null | 'all'>('all');
 

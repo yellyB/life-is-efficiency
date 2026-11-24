@@ -27,14 +27,14 @@ export const categoryLabels: Record<Category, string> = {
 	mssql: 'MSSQL'
 };
 
-export type Post = {
+export type PostMeta = {
 	title: string;
 	date: string;
 	category: Category | null;
 	slug: string;
 };
 
-export function postHref(post: Pick<Post, 'category' | 'slug'>) {
+export function postHref(post: Pick<PostMeta, 'category' | 'slug'>) {
 	return post.category ? `/${post.category}/${post.slug}` : `/${post.slug}`;
 }
 
