@@ -1,0 +1,3 @@
+#!/bin/sh
+git diff --cached --name-only -z --diff-filter=AM -- 'content/*.md' | xargs -0 node scripts/post-dates.mjs check
+exit 0

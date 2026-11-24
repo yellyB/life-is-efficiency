@@ -1,5 +1,4 @@
 import matter from 'gray-matter';
-import gitDates from 'virtual:content-dates';
 import { parseContentPath, type PostMeta } from '$lib/content.js';
 import { renderMarkdown } from './markdown.js';
 
@@ -8,8 +7,6 @@ const sourcesByPath = import.meta.glob<string>('/content/**/*.md', {
 	query: '?raw',
 	import: 'default'
 });
-
-const today = new Date().toISOString().slice(0, 10);
 
 type Post = { meta: PostMeta; path: string; body: string };
 
@@ -23,10 +20,12 @@ const posts: Post[] = Object.entries(sourcesByPath)
 		const parsed = parseContentPath(path);
 		if (!parsed) return [];
 		const { data, content } = matter(source);
+		const date = asString(data.date);
+		if (!date) throw new Error(`frontmatter에 date가 누락된 문서: ${path.slice(1)}`);
 
 		const meta: PostMeta = {
 			title: asString(data.title) ?? parsed.name,
-			date: asString(data.date) ?? gitDates[path] ?? today,
+			date,
 			category: parsed.category,
 			slug: parsed.slug
 		};

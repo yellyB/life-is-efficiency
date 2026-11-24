@@ -1,0 +1,43 @@
+name: Add missing post dates
+
+on:
+  push:
+    branches: [main]
+    paths: ['content/**/*.md']
+
+permissions:
+  contents: write
+
+jobs:
+  add-post-dates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Add dates to changed posts
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          if git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            BASE="$BEFORE"
+          else
+            BASE="$(git rev-parse "$AFTER^")"
+          fi
+          git diff --name-only -z --diff-filter=AM "$BASE" "$AFTER" -- 'content/*.md' \
+            | xargs -0 -r node scripts/post-dates.mjs fix
+
+      - name: Commit added dates
+        run: |
+          if git diff --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- content
+          git commit -m 'chore: 날짜가 누락된 글에 작성일 추가'
+          git push
