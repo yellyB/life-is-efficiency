@@ -1,11 +1,14 @@
 <script lang="ts">
 	import 'prismjs/themes/prism.css';
-	import { categories, categoryLabels, postHref, type Category, type PostMeta } from '$lib/content.js';
+	import { categoryLabel, postHref, sortCategories, type PostMeta } from '$lib/content.js';
 
 	let { data } = $props();
 	const posts: PostMeta[] = data.posts;
+	const categories = sortCategories([
+		...new Set(posts.flatMap((post) => (post.category ? [post.category] : [])))
+	]);
 
-	let filter = $state<Category | null | 'all'>('all');
+	let filter = $state<string | null>('all');
 
 	const filtered = $derived(filter === 'all' ? posts : posts.filter((p) => p.category === filter));
 </script>
@@ -17,7 +20,7 @@
 		<button class:active={filter === 'all'} onclick={() => (filter = 'all')}>전체</button>
 		{#each categories as category}
 			<button class:active={filter === category} onclick={() => (filter = category)}>
-				{categoryLabels[category]}
+				{categoryLabel(category)}
 			</button>
 		{/each}
 		<button class:active={filter === null} onclick={() => (filter = null)}>카테고리 없음</button>
@@ -26,7 +29,7 @@
 	<ul>
 		{#each filtered as post}
 			<li>
-				{#if filter === 'all' && post.category}<span class="tag">[{categoryLabels[post.category]}]</span>{/if}
+				{#if filter === 'all' && post.category}<span class="tag">[{categoryLabel(post.category)}]</span>{/if}
 				<a href={postHref(post)}>{post.title}</a>
 				<span class="date">{post.date}</span>
 			</li>

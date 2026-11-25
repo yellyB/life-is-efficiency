@@ -1,19 +1,4 @@
-export const categories = [
-	'til',
-	'algorithms',
-	'javascript',
-	'react',
-	'web',
-	'toy-project',
-	'comics',
-	'programming',
-	'network',
-	'dev-env',
-	'mssql'
-] as const;
-export type Category = (typeof categories)[number];
-
-export const categoryLabels: Record<Category, string> = {
+const categoryLabels: Record<string, string> = {
 	til: 'TIL',
 	algorithms: '알고리즘',
 	javascript: 'JavaScript',
@@ -26,20 +11,29 @@ export const categoryLabels: Record<Category, string> = {
 	'dev-env': '개발환경',
 	mssql: 'MSSQL'
 };
+const labeledCategories = Object.keys(categoryLabels);
+
+export function categoryLabel(category: string) {
+	return categoryLabels[category] ?? category;
+}
+
+export function sortCategories(categories: string[]) {
+	const rank = (category: string) => {
+		const index = labeledCategories.indexOf(category);
+		return index === -1 ? labeledCategories.length : index;
+	};
+	return [...categories].sort((a, b) => rank(a) - rank(b) || a.localeCompare(b));
+}
 
 export type PostMeta = {
 	title: string;
 	date: string;
-	category: Category | null;
+	category: string | null;
 	slug: string;
 };
 
 export function postHref(post: Pick<PostMeta, 'category' | 'slug'>) {
 	return post.category ? `/${post.category}/${post.slug}` : `/${post.slug}`;
-}
-
-function isCategory(value: string): value is Category {
-	return (categories as readonly string[]).includes(value);
 }
 
 function toSlug(name: string) {
@@ -51,7 +45,7 @@ function toSlug(name: string) {
 
 const POST_FOLDER_ENTRY = 'index.md';
 
-function splitContentPath(path: string): { category: Category | null; name: string } | null {
+function splitContentPath(path: string): { category: string | null; name: string } | null {
 	const parts = path.split('/').slice(2);
 	if (!parts.at(-1)?.endsWith('.md')) return null;
 
@@ -60,7 +54,7 @@ function splitContentPath(path: string): { category: Category | null; name: stri
 	const name = isFolderPost ? segments.at(-1)! : segments.at(-1)!.replace(/\.md$/, '');
 
 	if (segments.length === 1) return { category: null, name };
-	if (segments.length === 2 && isCategory(segments[0])) return { category: segments[0], name };
+	if (segments.length === 2) return { category: segments[0], name };
 	return null;
 }
 
