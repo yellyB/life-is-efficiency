@@ -1,1 +1,1 @@
- https://today-i-learn-seven.vercel.app/
+ https://life-is-efficiency.vercel.app
