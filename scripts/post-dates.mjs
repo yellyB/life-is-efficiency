@@ -72,9 +72,23 @@ function fix(files) {
 	}
 }
 
-function touch(files) {
+function body(source) {
+	return source.replace(FRONTMATTER, '');
+}
+
+function bodyAt(ref, file) {
+	try {
+		return body(git(['show', `${ref}:${file}`]));
+	} catch {
+		return null;
+	}
+}
+
+function touch(base, files) {
 	for (const file of files) {
 		const source = readFileSync(file, 'utf8');
+		if (bodyAt(base, file) === body(source)) continue;
+
 		const date = lastCommitDate(file);
 		const next = withField(source, 'updated', date);
 		if (next === source) continue;
@@ -84,13 +98,14 @@ function touch(files) {
 	}
 }
 
-const [mode, ...files] = process.argv.slice(2);
-const posts = files.filter((file) => file.startsWith('content/') && file.endsWith('.md'));
+const [mode, ...args] = process.argv.slice(2);
+const base = mode === 'touch' ? args.shift() : undefined;
+const posts = args.filter((file) => file.startsWith('content/') && file.endsWith('.md'));
 
 if (mode === 'check') check(posts);
 else if (mode === 'fix') fix(posts);
-else if (mode === 'touch') touch(posts);
+else if (mode === 'touch' && base) touch(base, posts);
 else {
-	console.error('usage: node scripts/post-dates.mjs <check|fix|touch> [files...]');
+	console.error('usage: node scripts/post-dates.mjs <check|fix|touch <base>> [files...]');
 	process.exit(1);
 }

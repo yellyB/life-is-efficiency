@@ -33,7 +33,7 @@ jobs:
           git diff --name-only -z --diff-filter=AM "$BASE" "$AFTER" -- 'content/*.md' \
             | xargs -0 -r node scripts/post-dates.mjs fix > "$RUNNER_TEMP/created"
           git diff --name-only -z --diff-filter=M "$BASE" "$AFTER" -- 'content/*.md' \
-            | xargs -0 -r node scripts/post-dates.mjs touch > "$RUNNER_TEMP/updated"
+            | xargs -0 -r node scripts/post-dates.mjs touch "$BASE" > "$RUNNER_TEMP/updated"
 
       - name: Commit updated dates
         run: |
