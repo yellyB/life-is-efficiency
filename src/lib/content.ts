@@ -28,6 +28,7 @@ export function sortCategories(categories: string[]) {
 export type PostMeta = {
 	title: string;
 	date: string;
+	updated: string;
 	category: string | null;
 	slug: string;
 };

@@ -26,12 +26,13 @@ const posts: Post[] = Object.entries(sourcesByPath)
 		const meta: PostMeta = {
 			title: asString(data.title) ?? parsed.name,
 			date,
+			updated: asString(data.updated) ?? date,
 			category: parsed.category,
 			slug: parsed.slug
 		};
 		return [{ meta, path, body: content }];
 	})
-	.sort((a, b) => b.meta.date.localeCompare(a.meta.date));
+	.sort((a, b) => b.meta.updated.localeCompare(a.meta.updated));
 
 const postMetas = posts.map((post) => post.meta);
 

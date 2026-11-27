@@ -12,7 +12,7 @@
 <article>
 	<div>
 		<h1>{data.meta.title}</h1>
-		<p>Published at {data.meta.date}</p>
+		<p>최근 수정일 {data.meta.updated}</p>
 	</div>
 
 	<div>

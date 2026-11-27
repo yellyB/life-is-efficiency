@@ -31,7 +31,7 @@
 			<li>
 				{#if filter === 'all' && post.category}<span class="tag">[{categoryLabel(post.category)}]</span>{/if}
 				<a href={postHref(post)}>{post.title}</a>
-				<span class="date">{post.date}</span>
+				<span class="date">{post.updated}</span>
 			</li>
 		{/each}
 	</ul>

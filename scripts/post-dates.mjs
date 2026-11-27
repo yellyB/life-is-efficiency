@@ -1,5 +1,6 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
+import { basename, dirname } from 'node:path';
 
 const FRONTMATTER = /^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/;
 const TIME_ZONE = 'Asia/Seoul';
@@ -13,6 +14,13 @@ function hasDate(source) {
 	return !!frontmatter && /^date:\s*\S/m.test(frontmatter[1]);
 }
 
+function postTitle(file, source) {
+	const frontmatter = source.match(FRONTMATTER);
+	const title = frontmatter?.[1].match(/^title:[ \t]*(.+?)[ \t]*$/m)?.[1].replace(/^(['"])(.*)\1$/, '$2');
+	if (title) return title;
+	return basename(file) === 'index.md' ? basename(dirname(file)) : basename(file, '.md');
+}
+
 function today() {
 	return new Date().toLocaleDateString('sv-SE', { timeZone: TIME_ZONE });
 }
@@ -22,6 +30,21 @@ function firstCommitDate(file) {
 		.split('\n')
 		.filter(Boolean);
 	return dates.at(-1) ?? today();
+}
+
+function lastCommitDate(file) {
+	return git(['log', '-1', '--format=%ad', '--date=format-local:%Y-%m-%d', '--', file]).trim() || today();
+}
+
+function withField(source, key, value) {
+	const line = `${key}: '${value}'`;
+	const frontmatter = source.match(FRONTMATTER);
+	if (!frontmatter) return `---\n${line}\n---\n\n${source}`;
+
+	const [whole, inner] = frontmatter;
+	const pattern = new RegExp(`^${key}:.*$`, 'm');
+	const nextInner = pattern.test(inner) ? inner.replace(pattern, () => line) : inner ? `${inner}\n${line}` : line;
+	return whole.replace(inner, () => nextInner) + source.slice(whole.length);
 }
 
 function withDate(source, date) {
@@ -45,7 +68,19 @@ function fix(files) {
 
 		const date = firstCommitDate(file);
 		writeFileSync(file, withDate(source, date));
-		console.log(`${file}: ${date}`);
+		console.log(postTitle(file, source));
+	}
+}
+
+function touch(files) {
+	for (const file of files) {
+		const source = readFileSync(file, 'utf8');
+		const date = lastCommitDate(file);
+		const next = withField(source, 'updated', date);
+		if (next === source) continue;
+
+		writeFileSync(file, next);
+		console.log(postTitle(file, source));
 	}
 }
 
@@ -54,7 +89,8 @@ const posts = files.filter((file) => file.startsWith('content/') && file.endsWit
 
 if (mode === 'check') check(posts);
 else if (mode === 'fix') fix(posts);
+else if (mode === 'touch') touch(posts);
 else {
-	console.error('usage: node scripts/post-dates.mjs <check|fix> [files...]');
+	console.error('usage: node scripts/post-dates.mjs <check|fix|touch> [files...]');
 	process.exit(1);
 }
