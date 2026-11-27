@@ -1,6 +1,6 @@
 ---
 title: "[sliding window 알고리즘] 리트코드 713. Subarray Product Less Than K"
-date: '2022-03-16'
+created: '2022-03-16'
 ---
 
 [https://leetcode.com/problems/subarray-product-less-than-k/](https://leetcode.com/problems/subarray-product-less-than-k/)

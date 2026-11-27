@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] Hash Table 문제: 347. Top K Frequent Elements (python 딕셔너리, JavaScript map)"
-date: '2022-03-30'
+created: '2022-03-30'
 ---
 
 [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)

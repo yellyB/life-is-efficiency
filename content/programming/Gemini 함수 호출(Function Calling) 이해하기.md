@@ -1,6 +1,6 @@
 ---
 title: "Gemini 함수 호출(Function Calling) 이해하기"
-date: '2025-08-20'
+created: '2025-08-20'
 ---
 
 ## **개요**

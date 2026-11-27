@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 313. Super Ugly Number(Hash)"
-date: '2021-12-31'
+created: '2021-12-31'
 ---
 
 [https://leetcode.com/problems/super-ugly-number/](https://leetcode.com/problems/super-ugly-number/)

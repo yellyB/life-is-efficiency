@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 : 402. Remove K Digits"
-date: '2021-08-27'
+created: '2021-08-27'
 ---
 
 [https://leetcode.com/problems/remove-k-digits/submissions/](https://leetcode.com/problems/remove-k-digits/submissions/)

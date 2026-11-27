@@ -1,6 +1,6 @@
 ---
 title: "[React] 리액트 class 컴포넌트와 함수 컴포넌트의 lifecycle"
-date: '2022-02-23'
+created: '2022-02-23'
 ---
 
 **리액트 Class형의 생명주기(lifecycle)**

@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 202. Happy Number(two pointer)"
-date: '2022-01-05'
+created: '2022-01-05'
 ---
 
 [https://leetcode.com/problems/happy-number/](https://leetcode.com/problems/happy-number/)

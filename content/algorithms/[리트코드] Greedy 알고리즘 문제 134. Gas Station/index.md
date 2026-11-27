@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] Greedy 알고리즘 문제: 134. Gas Station"
-date: '2022-03-28'
+created: '2022-03-28'
 ---
 
 [https://leetcode.com/problems/gas-station/](https://leetcode.com/problems/gas-station/)

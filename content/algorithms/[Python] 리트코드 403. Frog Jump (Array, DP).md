@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 403. Frog Jump (Array, DP)"
-date: '2021-09-10'
+created: '2021-09-10'
 ---
 
 [https://leetcode.com/problems/frog-jump/](https://leetcode.com/problems/frog-jump/)

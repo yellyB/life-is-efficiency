@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 983 : Minimum Cost For Tickets (DP)"
-date: '2021-06-18'
+created: '2021-06-18'
 ---
 
 [https://leetcode.com/problems/minimum-cost-for-tickets/submissions/](https://leetcode.com/problems/minimum-cost-for-tickets/submissions/)

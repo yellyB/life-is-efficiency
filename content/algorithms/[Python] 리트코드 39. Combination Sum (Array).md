@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 39. Combination Sum (Array)"
-date: '2021-07-12'
+created: '2021-07-12'
 ---
 
 [https://leetcode.com/problems/combination-sum/](https://leetcode.com/problems/combination-sum/)

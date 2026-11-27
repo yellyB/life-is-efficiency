@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] BFS: 127. Word Ladder (Python, JavaScript)"
-date: '2022-04-04'
+created: '2022-04-04'
 ---
 
 [https://leetcode.com/problems/word-ladder/](https://leetcode.com/problems/word-ladder/)

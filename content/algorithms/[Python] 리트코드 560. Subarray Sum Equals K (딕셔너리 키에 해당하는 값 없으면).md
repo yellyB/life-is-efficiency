@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 560. Subarray Sum Equals K (딕셔너리 키에 해당하는 값 없으면)"
-date: '2021-07-21'
+created: '2021-07-21'
 ---
 
 [https://leetcode.com/problems/subarray-sum-equals-k/](https://leetcode.com/problems/subarray-sum-equals-k/)

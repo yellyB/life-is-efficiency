@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 763. Partition Labels(Hash)"
-date: '2021-12-31'
+created: '2021-12-31'
 ---
 
 [https://leetcode.com/problems/partition-labels/](https://leetcode.com/problems/partition-labels/)

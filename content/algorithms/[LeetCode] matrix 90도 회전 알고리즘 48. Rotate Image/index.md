@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] matrix 90도 회전 알고리즘: 48. Rotate Image"
-date: '2022-04-04'
+created: '2022-04-04'
 ---
 
 [https://leetcode.com/problems/rotate-image/submissions/](https://leetcode.com/problems/rotate-image/submissions/)

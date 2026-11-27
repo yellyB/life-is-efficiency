@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 140. Word Break II"
-date: '2022-01-10'
+created: '2022-01-10'
 ---
 
 [https://leetcode.com/problems/word-break-ii/](https://leetcode.com/problems/word-break-ii/)

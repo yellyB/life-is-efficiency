@@ -1,6 +1,6 @@
 ---
 title: "[leetcode] 아스키코드를 이용한 알고리즘 풀이(389. Find the Difference)"
-date: '2022-03-09'
+created: '2022-03-09'
 ---
 
 [https://leetcode.com/problems/find-the-difference/](https://leetcode.com/problems/find-the-difference/)

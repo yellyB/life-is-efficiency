@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1014. Best Sightseeing Pair"
-date: '2021-10-26'
+created: '2021-10-26'
 ---
 
 [https://leetcode.com/problems/best-sightseeing-pair/](https://leetcode.com/problems/best-sightseeing-pair/)

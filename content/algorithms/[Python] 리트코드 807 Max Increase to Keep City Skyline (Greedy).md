@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 807:Max Increase to Keep City Skyline (Greedy)"
-date: '2021-08-27'
+created: '2021-08-27'
 ---
 
 [https://leetcode.com/problems/max-increase-to-keep-city-skyline/](https://leetcode.com/problems/max-increase-to-keep-city-skyline/)

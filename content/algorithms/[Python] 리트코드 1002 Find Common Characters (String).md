@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1002 : Find Common Characters (String)"
-date: '2021-07-11'
+created: '2021-07-11'
 ---
 
 [https://leetcode.com/problems/find-common-characters/](https://leetcode.com/problems/find-common-characters/)

@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] 이메일 유효성 검사 정규식"
-date: '2021-10-14'
+created: '2021-10-14'
 ---
 
 ```javascript

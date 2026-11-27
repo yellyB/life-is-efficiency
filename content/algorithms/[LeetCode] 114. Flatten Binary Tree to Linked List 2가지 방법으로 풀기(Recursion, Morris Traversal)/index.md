@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] 114. Flatten Binary Tree to Linked List 2가지 방법으로 풀기(Recursion, Morris Traversal)"
-date: '2022-04-06'
+created: '2022-04-06'
 ---
 
 [https://leetcode.com/problems/flatten-binary-tree-to-linked-list/](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)

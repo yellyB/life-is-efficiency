@@ -1,6 +1,6 @@
 ---
 title: "[React] CRA없이 프로젝트 세팅(Babel, Webpack, Polyfill) #1: Babel"
-date: '2022-04-29'
+created: '2022-04-29'
 ---
 
 먼저 Babel, Webpack, Polyfill이 무엇인지 간략하게 알아보자.

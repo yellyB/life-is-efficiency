@@ -1,6 +1,6 @@
 ---
 title: "React가 돌아가는 Node.js는 무엇일까?"
-date: '2021-09-17'
+created: '2021-09-17'
 ---
 
 Nods.js

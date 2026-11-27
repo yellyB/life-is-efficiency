@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1529. Bulb Switcher IV (Greedy)"
-date: '2021-08-25'
+created: '2021-08-25'
 ---
 
 [https://leetcode.com/problems/bulb-switcher-iv/](https://leetcode.com/problems/bulb-switcher-iv/)

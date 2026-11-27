@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] 비밀번호 유효성 검사 정규식(숫자, 영문, 특수문자 체크)"
-date: '2021-10-14'
+created: '2021-10-14'
 ---
 
 ```javascript

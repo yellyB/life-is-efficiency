@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] 읽기쉬운 코드를 위해서 const를 사용하자: const, let, var에 대해"
-date: '2021-12-10'
+created: '2021-12-10'
 ---
 
 변수를 선언할 때 깔끔하고 읽기 쉬운 코드를 작성하고 싶다면 const를 즐겨 써야 한다.

@@ -1,6 +1,6 @@
 ---
 title: "[React] 공공데이터 활용 프로젝트 (.env, CORS, favicon에러)"
-date: '2022-01-26'
+created: '2022-01-26'
 ---
 
 API 인증키 노출 방지

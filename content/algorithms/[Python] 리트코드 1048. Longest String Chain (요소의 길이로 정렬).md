@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1048. Longest String Chain (요소의 길이로 정렬)"
-date: '2021-07-19'
+created: '2021-07-19'
 ---
 
 [https://leetcode.com/problems/longest-string-chain/](https://leetcode.com/problems/longest-string-chain/)

@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] quick sort 알고리즘: 215. Kth Largest Element in an Array"
-date: '2022-04-05'
+created: '2022-04-05'
 ---
 
 [https://leetcode.com/problems/kth-largest-element-in-an-array/](https://leetcode.com/problems/kth-largest-element-in-an-array/)

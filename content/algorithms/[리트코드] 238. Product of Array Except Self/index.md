@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] 238. Product of Array Except Self"
-date: '2022-04-03'
+created: '2022-04-03'
 ---
 
 [https://leetcode.com/problems/product-of-array-except-self/](https://leetcode.com/problems/product-of-array-except-self/)

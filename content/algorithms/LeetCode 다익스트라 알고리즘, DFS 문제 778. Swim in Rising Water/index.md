@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 다익스트라 알고리즘, DFS 문제: 778. Swim in Rising Water"
-date: '2022-05-26'
+created: '2022-05-26'
 ---
 
 [https://leetcode.com/problems/swim-in-rising-water/](https://leetcode.com/problems/swim-in-rising-water/)

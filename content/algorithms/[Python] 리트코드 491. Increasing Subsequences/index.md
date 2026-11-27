@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 491. Increasing Subsequences"
-date: '2022-01-03'
+created: '2022-01-03'
 ---
 
 [https://leetcode.com/problems/increasing-subsequences/](https://leetcode.com/problems/increasing-subsequences/)

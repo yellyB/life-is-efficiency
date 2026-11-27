@@ -1,6 +1,6 @@
 ---
 title: "[Python] Project Euler 112 : Bouncy numbers"
-date: '2021-04-23'
+created: '2021-04-23'
 ---
 
 [projecteuler.net/problem=112](https://projecteuler.net/problem=112)

@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 300. Longest Increasing Subsequence"
-date: '2022-01-13'
+created: '2022-01-13'
 ---
 
 [https://leetcode.com/problems/longest-increasing-subsequence/](https://leetcode.com/problems/longest-increasing-subsequence/)

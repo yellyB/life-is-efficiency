@@ -1,6 +1,6 @@
 ---
 title: "[React] CRA없이 프로젝트 세팅(Babel, Webpack, Polyfill) #2: Webpack과 Polyfill"
-date: '2022-04-29'
+created: '2022-04-29'
 ---
 
 [2022.04.29 - \[React\] - \[React\] CRA없이 프로젝트 세팅(Babel, Webpack, Polyfill) #1](https://bomoto.tistory.com/157)

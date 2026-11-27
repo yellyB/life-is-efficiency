@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1025 : Divisor Game (DP)"
-date: '2021-06-16'
+created: '2021-06-16'
 ---
 
 [https://leetcode.com/problems/divisor-game/](https://leetcode.com/problems/divisor-game/)

@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] 정렬 관련 알고리즘 문제: 406. Queue Reconstruction by Height (JavaScript)"
-date: '2022-03-25'
+created: '2022-03-25'
 ---
 
 [https://leetcode.com/problems/queue-reconstruction-by-height/](https://leetcode.com/problems/queue-reconstruction-by-height/)

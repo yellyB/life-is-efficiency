@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 Hash Table, Sorting문제(791. Custom Sort String)"
-date: '2022-03-14'
+created: '2022-03-14'
 ---
 
 [https://leetcode.com/problems/custom-sort-string/](https://leetcode.com/problems/custom-sort-string/)

@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] 정렬 관련 알고리즘: 826. Most Profit Assigning Work (JavaScript)"
-date: '2022-03-25'
+created: '2022-03-25'
 ---
 
 [https://leetcode.com/problems/most-profit-assigning-work/](https://leetcode.com/problems/most-profit-assigning-work/)

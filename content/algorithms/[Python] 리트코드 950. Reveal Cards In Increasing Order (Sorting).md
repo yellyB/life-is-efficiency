@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 950. Reveal Cards In Increasing Order (Sorting)"
-date: '2021-08-09'
+created: '2021-08-09'
 ---
 
 [https://leetcode.com/problems/reveal-cards-in-increasing-order/submissions/](https://leetcode.com/problems/reveal-cards-in-increasing-order/submissions/)

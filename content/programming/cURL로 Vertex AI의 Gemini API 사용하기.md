@@ -1,6 +1,6 @@
 ---
 title: "cURL로 Vertex AI의 Gemini API 사용하기"
-date: '2025-08-19'
+created: '2025-08-19'
 ---
 
 이 글에서는 cURL 명령어를 통해 **Vertex AI의 Gemini API**와 직접 상호작용하는 방법을 살펴볼 것이다.

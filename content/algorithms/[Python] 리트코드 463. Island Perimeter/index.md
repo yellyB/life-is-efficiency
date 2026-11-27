@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 463. Island Perimeter"
-date: '2021-10-19'
+created: '2021-10-19'
 ---
 
 [https://leetcode.com/problems/island-perimeter/](https://leetcode.com/problems/island-perimeter/)

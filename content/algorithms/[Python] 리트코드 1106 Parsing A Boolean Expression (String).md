@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1106 : Parsing A Boolean Expression (String)"
-date: '2021-07-10'
+created: '2021-07-10'
 ---
 
 [https://leetcode.com/problems/parsing-a-boolean-expression/](https://leetcode.com/problems/parsing-a-boolean-expression/)

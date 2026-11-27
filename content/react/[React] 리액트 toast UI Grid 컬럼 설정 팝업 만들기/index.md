@@ -1,6 +1,6 @@
 ---
 title: "[React] 리액트 toast UI Grid 컬럼 설정 팝업 만들기"
-date: '2021-03-31'
+created: '2021-03-31'
 ---
 
 tost ui grid의 컬럼을 설정하는 팝업을 만들었다.

@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 451. Sort Characters By Frequency (딕셔너리 정렬, 요소 길이별 정렬)"
-date: '2021-08-08'
+created: '2021-08-08'
 ---
 
 [https://leetcode.com/problems/sort-characters-by-frequency/](https://leetcode.com/problems/sort-characters-by-frequency/)

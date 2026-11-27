@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 941 : Valid Mountain Array (Array)"
-date: '2021-06-05'
+created: '2021-06-05'
 ---
 
 [https://leetcode.com/problems/valid-mountain-array/](https://leetcode.com/problems/valid-mountain-array/)

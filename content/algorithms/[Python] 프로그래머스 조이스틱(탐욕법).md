@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스 : 조이스틱(탐욕법)"
-date: '2021-05-11'
+created: '2021-05-11'
 ---
 
 프로그래머스에 올라온 NWERC 2010 (Northwestern Europe Programming Contest)의 문제

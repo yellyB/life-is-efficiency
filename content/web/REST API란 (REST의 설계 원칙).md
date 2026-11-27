@@ -1,6 +1,6 @@
 ---
 title: "REST API란? (REST의 설계 원칙)"
-date: '2022-02-09'
+created: '2022-02-09'
 ---
 
 **REST API**

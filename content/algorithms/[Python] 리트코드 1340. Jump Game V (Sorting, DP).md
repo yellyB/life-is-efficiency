@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1340. Jump Game V (Sorting, DP)"
-date: '2021-08-08'
+created: '2021-08-08'
 ---
 
 [https://leetcode.com/problems/jump-game-v/](https://leetcode.com/problems/jump-game-v/)

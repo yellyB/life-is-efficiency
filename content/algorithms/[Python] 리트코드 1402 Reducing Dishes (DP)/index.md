@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1402 : Reducing Dishes (DP)"
-date: '2021-06-18'
+created: '2021-06-18'
 ---
 
 [https://leetcode.com/problems/reducing-dishes/](https://leetcode.com/problems/reducing-dishes/)

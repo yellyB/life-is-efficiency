@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] 자바스크립트 소수점 계산시 오류 발생????"
-date: '2021-12-10'
+created: '2021-12-10'
 ---
 
 ```javascript

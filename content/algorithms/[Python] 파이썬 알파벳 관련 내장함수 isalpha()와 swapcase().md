@@ -1,6 +1,6 @@
 ---
 title: "[Python] 파이썬 알파벳 관련 내장함수 isalpha()와 swapcase()"
-date: '2021-11-20'
+created: '2021-11-20'
 ---
 
 [https://leetcode.com/problems/letter-case-permutation/](https://leetcode.com/problems/letter-case-permutation/)

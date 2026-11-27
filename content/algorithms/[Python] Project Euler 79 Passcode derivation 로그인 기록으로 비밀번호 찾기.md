@@ -1,6 +1,6 @@
 ---
 title: "[Python] Project Euler 79 : Passcode derivation 로그인 기록으로 비밀번호 찾기"
-date: '2021-04-17'
+created: '2021-04-17'
 ---
 
 [projecteuler.net/problem=79](https://projecteuler.net/problem=79)

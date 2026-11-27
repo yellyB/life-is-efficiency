@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] 로봇이 체리 먹는 문제: 1463. Cherry Pickup II"
-date: '2022-04-14'
+created: '2022-04-14'
 ---
 
 [https://leetcode.com/problems/cherry-pickup-ii/](https://leetcode.com/problems/cherry-pickup-ii/)

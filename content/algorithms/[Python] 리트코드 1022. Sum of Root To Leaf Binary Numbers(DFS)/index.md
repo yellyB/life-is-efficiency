@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1022. Sum of Root To Leaf Binary Numbers(DFS)"
-date: '2021-08-03'
+created: '2021-08-03'
 ---
 
 [https://eetcode.com/problems/sum-of-root-to-leaf-binary-numbers/](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)

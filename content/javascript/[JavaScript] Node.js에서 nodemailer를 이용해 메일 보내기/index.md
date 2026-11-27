@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] Node.js에서 nodemailer를 이용해 메일 보내기"
-date: '2022-02-07'
+created: '2022-02-07'
 ---
 
 프로젝트에서 메일 전송 기능을 구현해야 했다.

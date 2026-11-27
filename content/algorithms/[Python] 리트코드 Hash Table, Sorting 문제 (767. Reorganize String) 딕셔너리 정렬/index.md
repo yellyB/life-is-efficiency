@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 Hash Table, Sorting 문제 (767. Reorganize String) 딕셔너리 정렬"
-date: '2022-03-14'
+created: '2022-03-14'
 ---
 
 [https://leetcode.com/problems/reorganize-string/](https://leetcode.com/problems/reorganize-string/)

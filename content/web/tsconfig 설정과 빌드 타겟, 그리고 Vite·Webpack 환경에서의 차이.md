@@ -1,6 +1,6 @@
 ---
 title: "tsconfig 설정과 빌드 타겟, 그리고 Vite·Webpack 환경에서의 차이"
-date: '2025-08-13'
+created: '2025-08-13'
 ---
 
 “tsconfig의 target이나 lib를 바꿨는데, 왜 빌드 결과물 문법은 그대로일까?”

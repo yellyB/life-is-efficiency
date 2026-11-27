@@ -1,6 +1,6 @@
 ---
 title: "[React] store에서 Actions may not have an undefined \"type\" property 에러"
-date: '2022-04-20'
+created: '2022-04-20'
 ---
 
 ![](./1.png)

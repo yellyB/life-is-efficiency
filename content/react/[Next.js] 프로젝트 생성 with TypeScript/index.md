@@ -1,6 +1,6 @@
 ---
 title: "[Next.js] 프로젝트 생성 with TypeScript"
-date: '2022-04-28'
+created: '2022-04-28'
 ---
 
 1\. 프로젝트 폴더를 생성한 뒤 해당 경로로 이동한다.

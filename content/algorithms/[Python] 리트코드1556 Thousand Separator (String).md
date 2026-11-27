@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드1556 : Thousand Separator (String)"
-date: '2021-07-01'
+created: '2021-07-01'
 ---
 
 [https://leetcode.com/problems/thousand-separator/](https://leetcode.com/problems/thousand-separator/)

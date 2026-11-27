@@ -1,6 +1,6 @@
 ---
 title: "bebal 에러: \"loose\" warning for @babel/plugin-proposal-private-property-in-object"
-date: '2022-10-12'
+created: '2022-10-12'
 ---
 
 ```javascript

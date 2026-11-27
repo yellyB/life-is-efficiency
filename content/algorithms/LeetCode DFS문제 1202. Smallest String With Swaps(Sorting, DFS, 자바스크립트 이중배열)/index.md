@@ -1,6 +1,6 @@
 ---
 title: "LeetCode DFS문제: 1202. Smallest String With Swaps(Sorting, DFS, 자바스크립트 이중배열)"
-date: '2022-05-25'
+created: '2022-05-25'
 ---
 
 [https://leetcode.com/problems/smallest-string-with-swaps/](https://leetcode.com/problems/smallest-string-with-swaps/)

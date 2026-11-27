@@ -1,6 +1,6 @@
 ---
 title: "JavaScript와 비교한 TypeScript의 특징과 장점"
-date: '2021-12-10'
+created: '2021-12-10'
 ---
 
 TypeScript를 알기 전에 JavaScript는 어떤 특징을 가진 언어인지 먼저 살펴보겠다.

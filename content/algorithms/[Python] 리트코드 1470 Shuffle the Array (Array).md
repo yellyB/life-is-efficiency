@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1470 : Shuffle the Array (Array)"
-date: '2021-06-08'
+created: '2021-06-08'
 ---
 
 [https://leetcode.com/problems/shuffle-the-array/](https://leetcode.com/problems/shuffle-the-array/)

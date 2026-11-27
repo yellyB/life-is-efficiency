@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 55. Jump Game"
-date: '2021-09-02'
+created: '2021-09-02'
 ---
 
 [https://leetcode.com/problems/jump-game/](https://leetcode.com/problems/jump-game/)

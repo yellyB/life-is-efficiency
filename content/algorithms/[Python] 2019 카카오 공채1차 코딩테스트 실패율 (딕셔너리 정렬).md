@@ -1,6 +1,6 @@
 ---
 title: "[Python] 2019 카카오 공채1차 코딩테스트 : 실패율 (딕셔너리 정렬)"
-date: '2021-04-29'
+created: '2021-04-29'
 ---
 
 [programmers.co.kr/learn/courses/30/lessons/42889?language=python3](https://programmers.co.kr/learn/courses/30/lessons/42889?language=python3)

@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스 : 큰 수 만들기(탐욕법)"
-date: '2021-05-04'
+created: '2021-05-04'
 ---
 
 [programmers.co.kr/learn/courses/30/lessons/42883](https://programmers.co.kr/learn/courses/30/lessons/42883)

@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] stack을 활용한 문제: 394. Decode String"
-date: '2022-04-08'
+created: '2022-04-08'
 ---
 
 [https://leetcode.com/problems/decode-string/](https://leetcode.com/problems/decode-string/)

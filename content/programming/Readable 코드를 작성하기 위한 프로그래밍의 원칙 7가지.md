@@ -1,6 +1,6 @@
 ---
 title: "Readable 코드를 작성하기 위한 프로그래밍의 원칙 7가지"
-date: '2022-06-03'
+created: '2022-06-03'
 ---
 
 #### 1\. KISS (Keep It Simple Stupid / Keep It Short and Simple)

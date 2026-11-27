@@ -1,6 +1,6 @@
 ---
 title: "[Python] ProjectEuler 24:Lexicographic permutations 사전식 순열"
-date: '2021-04-21'
+created: '2021-04-21'
 ---
 
 [projecteuler.net/problem=24](https://projecteuler.net/problem=24)

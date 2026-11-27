@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1567. Maximum Length of Subarray With Positive Product (누적 곱셈)"
-date: '2021-10-25'
+created: '2021-10-25'
 ---
 
 [https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)

@@ -1,6 +1,6 @@
 ---
 title: "[Sliding Window 알고리즘] 리트코드 438. Find All Anagrams in a String (with. 아스키 코드)"
-date: '2022-03-16'
+created: '2022-03-16'
 ---
 
 [https://leetcode.com/problems/find-all-anagrams-in-a-string/](https://leetcode.com/problems/find-all-anagrams-in-a-string/)

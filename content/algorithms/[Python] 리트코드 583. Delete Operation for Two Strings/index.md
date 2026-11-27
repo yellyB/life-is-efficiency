@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 583. Delete Operation for Two Strings"
-date: '2021-12-02'
+created: '2021-12-02'
 ---
 
 [https://leetcode.com/problems/delete-operation-for-two-strings/](https://leetcode.com/problems/delete-operation-for-two-strings/)

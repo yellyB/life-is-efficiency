@@ -1,5 +1,5 @@
 ---
-date: '2026-11-25'
+created: '2026-11-25'
 ---
 
 <img width="1142" height="1204" alt="스크린샷 2026-11-25 오후 8 18 58" src="https://github.com/user-attachments/assets/04200530-f9ac-448d-9035-dc8317337b94" />

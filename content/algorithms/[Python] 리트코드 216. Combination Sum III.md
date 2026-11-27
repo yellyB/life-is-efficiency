@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 216. Combination Sum III"
-date: '2021-09-02'
+created: '2021-09-02'
 ---
 
 [https://leetcode.com/problems/combination-sum-iii/](https://leetcode.com/problems/combination-sum-iii/)

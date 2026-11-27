@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] 딕셔너리 알파벳 빈도수: 1255. Maximum Score Words Formed by Letters"
-date: '2022-04-14'
+created: '2022-04-14'
 ---
 
 [https://leetcode.com/problems/maximum-score-words-formed-by-letters/](https://leetcode.com/problems/maximum-score-words-formed-by-letters/)

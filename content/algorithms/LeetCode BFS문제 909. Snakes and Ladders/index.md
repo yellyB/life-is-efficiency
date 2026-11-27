@@ -1,6 +1,6 @@
 ---
 title: "LeetCode BFS문제: 909. Snakes and Ladders"
-date: '2022-05-31'
+created: '2022-05-31'
 ---
 
 [https://leetcode.com/problems/snakes-and-ladders/](https://leetcode.com/problems/snakes-and-ladders/)

@@ -1,6 +1,6 @@
 ---
 title: "[Python] 10001st prime : 10001번째 소수 구하기"
-date: '2021-04-15'
+created: '2021-04-15'
 ---
 
 [https://projecteuler.net/problem=7](https://projecteuler.net/archives)

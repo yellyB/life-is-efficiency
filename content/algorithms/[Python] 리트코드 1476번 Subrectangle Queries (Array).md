@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1476번 : Subrectangle Queries (Array)"
-date: '2021-06-02'
+created: '2021-06-02'
 ---
 
 [https://leetcode.com/problems/subrectangle-queries/](https://leetcode.com/problems/subrectangle-queries/)

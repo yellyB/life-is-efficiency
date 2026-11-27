@@ -1,6 +1,6 @@
 ---
 title: "[프로그래머스] 2 x n 타일링 문제 풀이와 코드"
-date: '2023-01-10'
+created: '2023-01-10'
 ---
 
 [https://school.programmers.co.kr/learn/courses/30/lessons/12900?language=python3#](https://school.programmers.co.kr/learn/courses/30/lessons/12900?language=python3#)

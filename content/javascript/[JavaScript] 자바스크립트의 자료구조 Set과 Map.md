@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] 자바스크립트의 자료구조 Set과 Map"
-date: '2022-06-02'
+created: '2022-06-02'
 ---
 
 ### Set

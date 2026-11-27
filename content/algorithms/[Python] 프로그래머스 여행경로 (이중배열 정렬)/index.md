@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스: 여행경로 (이중배열 정렬)"
-date: '2021-11-26'
+created: '2021-11-26'
 ---
 
 [https://programmers.co.kr/learn/courses/30/lessons/43164](https://programmers.co.kr/learn/courses/30/lessons/43164)

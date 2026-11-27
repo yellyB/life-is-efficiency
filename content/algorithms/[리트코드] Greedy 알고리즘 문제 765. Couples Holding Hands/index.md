@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] Greedy 알고리즘 문제: 765. Couples Holding Hands"
-date: '2022-03-29'
+created: '2022-03-29'
 ---
 
 [https://leetcode.com/problems/couples-holding-hands/](https://leetcode.com/problems/couples-holding-hands/)

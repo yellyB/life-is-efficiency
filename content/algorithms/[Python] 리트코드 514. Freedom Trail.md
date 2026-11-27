@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 514. Freedom Trail"
-date: '2021-09-15'
+created: '2021-09-15'
 ---
 
 [https://leetcode.com/problems/freedom-trail/](https://leetcode.com/problems/freedom-trail/)

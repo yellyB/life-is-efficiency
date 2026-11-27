@@ -1,6 +1,6 @@
 ---
 title: "[React] CRA로 생성한 리액트 환경변수가 development, production를 제외하고 적용되지 않을 때"
-date: '2023-01-18'
+created: '2023-01-18'
 ---
 
 CRA로 리액트 프로젝트를 생성하면 자동으로 환경변수 두 가지 development, production 가 적용된다.

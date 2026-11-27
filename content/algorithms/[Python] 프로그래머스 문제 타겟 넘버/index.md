@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스 문제: 타겟 넘버"
-date: '2021-10-01'
+created: '2021-10-01'
 ---
 
 [https://programmers.co.kr/learn/courses/30/lessons/43165](https://programmers.co.kr/learn/courses/30/lessons/43165)

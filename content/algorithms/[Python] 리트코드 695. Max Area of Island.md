@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 695. Max Area of Island"
-date: '2021-10-18'
+created: '2021-10-18'
 ---
 
 [https://leetcode.com/problems/max-area-of-island/](https://leetcode.com/problems/max-area-of-island/)

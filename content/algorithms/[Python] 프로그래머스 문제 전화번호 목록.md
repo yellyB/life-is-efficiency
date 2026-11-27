@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스 문제 : 전화번호 목록"
-date: '2021-05-15'
+created: '2021-05-15'
 ---
 
 NCPC(Nordic Collegiate Programming Contest)문제

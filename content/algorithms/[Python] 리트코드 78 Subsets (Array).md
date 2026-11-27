@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 78 : Subsets (Array)"
-date: '2021-06-10'
+created: '2021-06-10'
 ---
 
 [https://leetcode.com/problems/subsets/](https://leetcode.com/problems/subsets/)

@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1690. Stone Game VII"
-date: '2021-10-18'
+created: '2021-10-18'
 ---
 
 [https://leetcode.com/problems/stone-game-vii/](https://leetcode.com/problems/stone-game-vii/)

@@ -1,6 +1,6 @@
 ---
 title: "[React] 개발과 배포시 cors에러 해결 기록(with. heroku cors-anywhere)"
-date: '2022-02-26'
+created: '2022-02-26'
 ---
 
 토이 프로젝트가 마무리 단계에 다다라서 배포 단계를 앞두고 있었다.

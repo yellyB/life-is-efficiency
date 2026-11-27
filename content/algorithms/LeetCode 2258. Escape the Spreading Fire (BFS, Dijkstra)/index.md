@@ -1,6 +1,6 @@
 ---
 title: "LeetCode 2258. Escape the Spreading Fire (BFS, Dijkstra)"
-date: '2022-06-22'
+created: '2022-06-22'
 ---
 
 [https://leetcode.com/problems/escape-the-spreading-fire/](https://leetcode.com/problems/escape-the-spreading-fire/)

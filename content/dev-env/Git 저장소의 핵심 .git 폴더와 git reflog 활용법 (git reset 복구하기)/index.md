@@ -1,6 +1,6 @@
 ---
 title: "Git 저장소의 핵심: .git 폴더와 git reflog 활용법 (git reset 복구하기)"
-date: '2025-03-05'
+created: '2025-03-05'
 ---
 
 프로젝트를 생성하여 이를 Git 저장소로 관리하고 싶을 때 `git init` 명령어를 사용한다.

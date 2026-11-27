@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 43 : Multiply Strings (String)"
-date: '2021-06-22'
+created: '2021-06-22'
 ---
 
 [https://leetcode.com/problems/multiply-strings/](https://leetcode.com/problems/multiply-strings/)

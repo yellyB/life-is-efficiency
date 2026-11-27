@@ -1,6 +1,6 @@
 ---
 title: "[Python] 2019카카오 겨울 인턴십 코딩 문제 : 인형뽑기"
-date: '2021-04-28'
+created: '2021-04-28'
 ---
 
 [tech.kakao.com/2020/04/01/2019-internship-test/](https://tech.kakao.com/2020/04/01/2019-internship-test/)

@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] Greedy 알고리즘 문제: 2136. Earliest Possible Day of Full Bloom (feat. 이중배열 정렬)"
-date: '2022-03-28'
+created: '2022-03-28'
 ---
 
 [https://leetcode.com/problems/earliest-possible-day-of-full-bloom/](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/)

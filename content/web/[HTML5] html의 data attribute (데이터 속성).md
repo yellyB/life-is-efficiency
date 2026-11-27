@@ -1,6 +1,6 @@
 ---
 title: "[HTML5] html의 data attribute (데이터 속성)"
-date: '2022-06-02'
+created: '2022-06-02'
 ---
 
 ### data attributes

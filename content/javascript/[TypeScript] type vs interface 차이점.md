@@ -1,6 +1,6 @@
 ---
 title: "[TypeScript] type vs interface 차이점"
-date: '2025-02-07'
+created: '2025-02-07'
 ---
 
 TypeScript에서 type과 interface는 둘 다 타입을 정의하는 데 사용되지만, 각각의 특성과 활용 방식이 다르다.

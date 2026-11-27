@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스 코딩테스트 연습 : 프린터"
-date: '2021-04-30'
+created: '2021-04-30'
 ---
 
 NWERC 2006 (Northwestern European Programming Contest)문제

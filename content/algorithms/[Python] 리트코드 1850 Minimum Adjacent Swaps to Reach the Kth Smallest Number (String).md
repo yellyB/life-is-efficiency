@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1850 : Minimum Adjacent Swaps to Reach the Kth Smallest Number (String)"
-date: '2021-07-03'
+created: '2021-07-03'
 ---
 
 [https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/](https://leetcode.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)

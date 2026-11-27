@@ -1,6 +1,6 @@
 ---
 title: "[Python] 트리 탐색 알고리즘: 전위 순회, 중위 순회, 후위 순회"
-date: '2021-11-19'
+created: '2021-11-19'
 ---
 
 [https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC\_%EC%88%9C%ED%9A%8C](https://ko.wikipedia.org/wiki/%ED%8A%B8%EB%A6%AC_%EC%88%9C%ED%9A%8C)

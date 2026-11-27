@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] Edit_distance 알고리즘 문제: 72. Edit Distance"
-date: '2022-04-14'
+created: '2022-04-14'
 ---
 
 [https://leetcode.com/problems/edit-distance/](https://leetcode.com/problems/edit-distance/)

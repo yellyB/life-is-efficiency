@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 877 : Stone Game (DP)"
-date: '2021-06-16'
+created: '2021-06-16'
 ---
 
 [https://leetcode.com/problems/stone-game/submissions/](https://leetcode.com/problems/stone-game/submissions/)

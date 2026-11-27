@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] n일 전 or n달 전 날짜 구하기 : moment.js와 moment TimeZone"
-date: '2021-04-05'
+created: '2021-04-05'
 ---
 
 ![](./1.png)

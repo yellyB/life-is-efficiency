@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 309. Best Time to Buy and Sell Stock with Cooldown"
-date: '2021-10-27'
+created: '2021-10-27'
 ---
 
 [https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)

@@ -1,6 +1,6 @@
 ---
 title: "LeetCode BFS문제: 207. Course Schedule (파이썬 딕셔너리, 자바스크립트 map(value가 배열))"
-date: '2022-05-24'
+created: '2022-05-24'
 ---
 
 [https://leetcode.com/problems/course-schedule/](https://leetcode.com/problems/course-schedule/)

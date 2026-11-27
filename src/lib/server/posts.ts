@@ -20,13 +20,13 @@ const posts: Post[] = Object.entries(sourcesByPath)
 		const parsed = parseContentPath(path);
 		if (!parsed) return [];
 		const { data, content } = matter(source);
-		const date = asString(data.date);
-		if (!date) throw new Error(`frontmatter에 date가 누락된 문서: ${path.slice(1)}`);
+		const created = asString(data.created);
+		if (!created) throw new Error(`frontmatter에 created가 누락된 문서: ${path.slice(1)}`);
 
 		const meta: PostMeta = {
 			title: asString(data.title) ?? parsed.name,
-			date,
-			updated: asString(data.updated) ?? date,
+			created,
+			updated: asString(data.updated) ?? created,
 			category: parsed.category,
 			slug: parsed.slug
 		};

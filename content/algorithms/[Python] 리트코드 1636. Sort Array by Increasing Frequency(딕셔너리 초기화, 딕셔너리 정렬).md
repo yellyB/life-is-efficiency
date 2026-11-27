@@ -1,6 +1,6 @@
 ---
 title: "[Python] 리트코드 1636. Sort Array by Increasing Frequency(딕셔너리 초기화, 딕셔너리 정렬)"
-date: '2021-10-19'
+created: '2021-10-19'
 ---
 
 [https://leetcode.com/problems/sort-array-by-increasing-frequency/](https://leetcode.com/problems/sort-array-by-increasing-frequency/)

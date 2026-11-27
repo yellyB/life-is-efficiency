@@ -1,6 +1,6 @@
 ---
 title: "[JavaScript] 값, 리터럴, 표현식, 문"
-date: '2021-12-26'
+created: '2021-12-26'
 ---
 
 **값(value)**

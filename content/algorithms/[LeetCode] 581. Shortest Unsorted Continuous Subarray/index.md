@@ -1,6 +1,6 @@
 ---
 title: "[LeetCode] 581. Shortest Unsorted Continuous Subarray"
-date: '2022-04-03'
+created: '2022-04-03'
 ---
 
 [https://leetcode.com/problems/shortest-unsorted-continuous-subarray/](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)

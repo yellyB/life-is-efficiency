@@ -1,6 +1,6 @@
 ---
 title: "[리트코드] 이진탐색 알고리즘: 33. Search in Rotated Sorted Array"
-date: '2022-04-02'
+created: '2022-04-02'
 ---
 
 [https://leetcode.com/problems/search-in-rotated-sorted-array/](https://leetcode.com/problems/search-in-rotated-sorted-array/)

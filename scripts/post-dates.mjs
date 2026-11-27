@@ -9,9 +9,9 @@ function git(args) {
 	return execFileSync('git', args, { encoding: 'utf8', env: { ...process.env, TZ: TIME_ZONE } });
 }
 
-function hasDate(source) {
+function hasCreated(source) {
 	const frontmatter = source.match(FRONTMATTER);
-	return !!frontmatter && /^date:\s*\S/m.test(frontmatter[1]);
+	return !!frontmatter && /^created:\s*\S/m.test(frontmatter[1]);
 }
 
 function postTitle(file, source) {
@@ -47,27 +47,27 @@ function withField(source, key, value) {
 	return whole.replace(inner, () => nextInner) + source.slice(whole.length);
 }
 
-function withDate(source, date) {
-	const line = `date: '${date}'`;
+function withCreated(source, date) {
+	const line = `created: '${date}'`;
 	if (FRONTMATTER.test(source)) return source.replace(/^---\r?\n/, `---\n${line}\n`);
 	return `---\n${line}\n---\n\n${source}`;
 }
 
 function check(files) {
-	const missing = files.filter((file) => !hasDate(git(['show', `:${file}`])));
+	const missing = files.filter((file) => !hasCreated(git(['show', `:${file}`])));
 	if (missing.length === 0) return;
 
-	console.warn('경고: frontmatter에 date가 누락된 문서');
+	console.warn('경고: frontmatter에 created가 누락된 문서');
 	for (const file of missing) console.warn(`- ${file}`);
 }
 
 function fix(files) {
 	for (const file of files) {
 		const source = readFileSync(file, 'utf8');
-		if (hasDate(source)) continue;
+		if (hasCreated(source)) continue;
 
 		const date = firstCommitDate(file);
-		writeFileSync(file, withDate(source, date));
+		writeFileSync(file, withCreated(source, date));
 		console.log(postTitle(file, source));
 	}
 }

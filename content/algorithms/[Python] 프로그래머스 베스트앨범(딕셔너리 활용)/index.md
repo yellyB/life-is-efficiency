@@ -1,6 +1,6 @@
 ---
 title: "[Python] 프로그래머스: 베스트앨범(딕셔너리 활용)"
-date: '2021-11-09'
+created: '2021-11-09'
 ---
 
 [https://programmers.co.kr/learn/courses/30/lessons/42579](https://programmers.co.kr/learn/courses/30/lessons/42579)

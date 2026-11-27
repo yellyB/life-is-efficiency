@@ -1,6 +1,6 @@
 ---
 title: "[Flutter] Mac에서 Flutter 설치하기"
-date: '2023-10-13'
+created: '2023-10-13'
 ---
 
 ### 1\. Flutter 공식 문서에서 SDK 를 설치한다.

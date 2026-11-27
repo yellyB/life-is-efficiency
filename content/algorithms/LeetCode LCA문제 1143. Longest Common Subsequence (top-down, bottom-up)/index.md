@@ -1,6 +1,6 @@
 ---
 title: "LeetCode LCA문제: 1143. Longest Common Subsequence (top-down, bottom-up)"
-date: '2022-06-01'
+created: '2022-06-01'
 ---
 
 [https://leetcode.com/problems/longest-common-subsequence/](https://leetcode.com/problems/longest-common-subsequence/)
